@@ -39,7 +39,7 @@ or download the css on github and include in your project.
 .dig {    display: inline-grid; }
 .dri {    display: run-in; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .dn-ns {     display: none; }
   .di-ns {     display: inline; }
   .db-ns {     display: block; }
@@ -61,7 +61,7 @@ or download the css on github and include in your project.
   .dri-ns {    display: run-in; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .dn-m {     display: none; }
   .di-m {     display: inline; }
   .db-m {     display: block; }
@@ -83,7 +83,7 @@ or download the css on github and include in your project.
   .dri-m {    display: run-in; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .dn-l {     display: none; }
   .di-l {     display: inline; }
   .db-l {     display: block; }
