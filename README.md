@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-display)
 ## File Size
 
 2.9K display.css
-2.0K display.min.css
+2.0K display.min.css 
+407B minified and gzipped
 
 ## The Code
 ```
