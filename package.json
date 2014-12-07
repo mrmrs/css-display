@@ -1,7 +1,7 @@
 {
   "name": "css-display",
   "style": "display.css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "http://github.com/mrmrs/css-display",
   "description": "Css module of single purpose classes for display",
   "keywords": [
