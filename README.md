@@ -1,10 +1,10 @@
-# css-display 0.0.7
+# css-display 1.0.0
 
 Css module of single purpose classes for display
 
 #### Stats
 
-512 | 76 | 76
+371 | 30 | 30
 ---|---|---
 bytes | selectors | declarations
 
@@ -60,94 +60,40 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
    DISPLAY
 
-   - Mobile First
-   - Breakpoint: not-small
-   - Breakpoint: medium
-   - Breakpoint: large
+   https://developer.mozilla.org/en-US/docs/Web/CSS/display
 
 */
-.dn { display: none; }
-.di { display: inline; }
-.db { display: block; }
-.dib { display: inline-block; }
-.dli { display: list-item; }
-.dit { display: inline-table; }
-.dt { display: table; }
-.dtc { display: table-cell; }
-.dtcol { display: table-column; }
-.dtcolg { display: table-column-group; }
-.dtfg { display: table-footer-group; }
-.dthg { display: table-header-group; }
-.dtr { display: table-row; }
-.dtrg { display: table-row-group; }
-.df { display: flex; }
-.dif { display: inline-flex; }
-.dg { display: grid; }
-.dig { display: inline-grid; }
-.dri { display: run-in; }
-@media screen and (min-width: 48em) {
- .dn-ns { display: none; }
- .di-ns { display: inline; }
- .db-ns { display: block; }
- .dib-ns { display: inline-block; }
- .dli-ns { display: list-item; }
- .dit-ns { display: inline-table; }
- .dt-ns { display: table; }
- .dtc-ns { display: table-cell; }
- .dtcol-ns { display: table-column; }
- .dtcolg-ns { display: table-column-group; }
- .dtfg-ns { display: table-footer-group; }
- .dthg-ns { display: table-header-group; }
- .dtr-ns { display: table-row; }
- .dtrg-ns { display: table-row-group; }
- .df-ns { display: flex; }
- .dif-ns { display: inline-flex; }
- .dg-ns { display: grid; }
- .dig-ns { display: inline-grid; }
- .dri-ns { display: run-in; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .dn-m { display: none; }
- .di-m { display: inline; }
- .db-m { display: block; }
- .dib-m { display: inline-block; }
- .dli-m { display: list-item; }
- .dit-m { display: inline-table; }
- .dt-m { display: table; }
- .dtc-m { display: table-cell; }
- .dtcol-m { display: table-column; }
- .dtcolg-m { display: table-column-group; }
- .dtfg-m { display: table-footer-group; }
- .dthg-m { display: table-header-group; }
- .dtr-m { display: table-row; }
- .dtrg-m { display: table-row-group; }
- .df-m { display: flex; }
- .dif-m { display: inline-flex; }
- .dg-m { display: grid; }
- .dig-m { display: inline-grid; }
- .dri-m { display: run-in; }
-}
-@media screen and (min-width: 64em) {
- .dn-l { display: none; }
- .di-l { display: inline; }
- .db-l { display: block; }
- .dib-l { display: inline-block; }
- .dli-l { display: list-item; }
- .dit-l { display: inline-table; }
- .dt-l { display: table; }
- .dtc-l { display: table-cell; }
- .dtcol-l { display: table-column; }
- .dtcolg-l { display: table-column-group; }
- .dtfg-l { display: table-footer-group; }
- .dthg-l { display: table-header-group; }
- .dtr-l { display: table-row; }
- .dtrg-l { display: table-row-group; }
- .df-l { display: flex; }
- .dif-l { display: inline-flex; }
- .dg-l { display: grid; }
- .dig-l { display: inline-grid; }
- .dri-l { display: run-in; }
-}
+.display-none { display: none; }
+.display-inline { display: inline; }
+.display-block { display: block; }
+.display-inline-block { display: inline-block; }
+.display-contents { display: contents; }
+.display-list-item { display: list-item; }
+.display-inline-list-item { display: inline-list-item; }
+.display-table { display: table; }
+.display-inline-table { display: inline-table; }
+.display-table-cell { display: table-cell; }
+.display-table-column { display: table-column; }
+.display-table-column-group { display: table-column-group; }
+.display-table-footer-group { display: table-footer-group; }
+.display-table-header-group { display: table-header-group; }
+.display-table-row { display: table-row; }
+.display-table-row-group { display: table-row-group; }
+.display-table-caption { display: table-caption; }
+.display-flex { display: flex; }
+.display-inline-flex { display: inline-flex; }
+.display-grid { display: grid; }
+.display-inline-grid { display: inline-grid; }
+.display-ruby { display: ruby; }
+.display-ruby-base { display: ruby-base; }
+.display-ruby-text { display: ruby-text; }
+.display-ruby-base-container { display: ruby-base-container; }
+.display-ruby-text-container { display: ruby-text-container; }
+.display-run-in { display: run-in; }
+/* Global values */
+.display-inherit { display: inherit; }
+.display-initial { display: initial; }
+.display-unset { display: unset; }
 ```
 
 ## Contributing
