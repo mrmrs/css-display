@@ -57,7 +57,9 @@
           "href": "https://twitter.com/intent/tweet?text=css-display%253A%2520Responsive%2520CSS%2520module%2520for%2520setting%2520display&url=https%253A%252F%252Fwww.npmjs.com%252Fpackage%252Fcss-display"
         }
       ],
-      "text": "v2.0.0"
+      "text": "v2.0.0",
+      "backgroundImage": "http://mrmrs.io/photos/1.jpg",
+      "image": "http://mrmrs.io/photos/3.jpg"
     },
     {
       "component": "article/BasicArticle",
