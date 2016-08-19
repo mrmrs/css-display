@@ -7,26 +7,29 @@
   "title": "css display",
   "branch": "",
   "style": {
-    "name": "Williamsburg",
+    "name": "Swiss",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/LightBannerHeader",
-      "article": "article/ReaderArticle",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "Montserrat, sans-serif",
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "heading": {
-      "fontWeight": 600,
-      "letterSpacing": "0.1em"
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
     },
     "colors": {
-      "text": "#346",
+      "text": "#000",
       "background": "#fff",
-      "primary": "#0099e0",
-      "secondary": "#ab61ff",
-      "highlight": "#f7b",
-      "muted": "#fffab3",
-      "border": "#ccd"
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
     }
   },
   "content": [
@@ -58,8 +61,8 @@
         }
       ],
       "text": "v2.0.0",
-      "backgroundImage": "http://mrmrs.io/photos/1.jpg",
-      "image": "http://mrmrs.io/photos/3.jpg"
+      "backgroundImage": "http://mrmrs.io/photos/2.jpg",
+      "image": ""
     },
     {
       "component": "article/BasicArticle",
