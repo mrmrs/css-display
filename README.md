@@ -1,4 +1,4 @@
-# css-display 1.0.0
+# css-display 2.0.1
 
 Css module of single purpose classes for display
 
