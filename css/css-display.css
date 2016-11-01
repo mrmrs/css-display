@@ -22,10 +22,10 @@
 .display-table-row { display: table-row; }
 .display-table-row-group { display: table-row-group; }
 .display-table-caption { display: table-caption; }
-.display-flex { display: flex; }
-.display-inline-flex { display: inline-flex; }
-.display-grid { display: grid; }
-.display-inline-grid { display: inline-grid; }
+.display-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.display-inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+.display-grid { display: -ms-grid; display: grid; }
+.display-inline-grid { display: -ms-inline-grid; display: inline-grid; }
 .display-ruby { display: ruby; }
 .display-ruby-base { display: ruby-base; }
 .display-ruby-text { display: ruby-text; }
