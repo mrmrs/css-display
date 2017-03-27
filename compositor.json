@@ -50,6 +50,10 @@
         {
           "text": "Tweet",
           "href": "https://twitter.com/intent/tweet?text=css-display%253A%2520Responsive%2520CSS%2520module%2520for%2520setting%2520display&url=https%253A%252F%252Fwww.npmjs.com%252Fpackage%252Fcss-display"
+        },
+        {
+          "href": "https://github.com/mrmrs/css-display/archive/master.zip",
+          "text": "Download"
         }
       ],
       "text": "Set display on any element at any breakpoint",
