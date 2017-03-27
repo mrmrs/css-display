@@ -56,8 +56,8 @@
     },
     {
       "component": "header/BannerHeader",
-      "heading": "Demo for mom",
-      "subhead": "Every possible value for display: the spec has to offer",
+      "heading": "display.css",
+      "subhead": "A functional css micro library",
       "links": [
         {
           "text": "Tweet",
@@ -67,7 +67,7 @@
       "text": "371 bytes",
       "backgroundImage": "http://mrmrs.io/photos/display-large.jpg",
       "image": "",
-      "slug": "this is new stuff"
+      "slug": "Single purpose classes for setting display"
     },
     {
       "component": "article/BasicArticle",
