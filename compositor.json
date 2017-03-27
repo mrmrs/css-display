@@ -64,10 +64,10 @@
           "href": "https://twitter.com/intent/tweet?text=css-display%253A%2520Responsive%2520CSS%2520module%2520for%2520setting%2520display&url=https%253A%252F%252Fwww.npmjs.com%252Fpackage%252Fcss-display"
         }
       ],
-      "text": "371 bytes",
+      "text": "Set display on any element at any breakpoint",
       "backgroundImage": "http://mrmrs.io/photos/display-large.jpg",
       "image": "",
-      "slug": "Single purpose classes for setting display"
+      "slug": ""
     },
     {
       "component": "article/BasicArticle",
