@@ -34,27 +34,6 @@
   },
   "content": [
     {
-      "component": "nav/AbsoluteNav",
-      "links": [
-        {
-          "href": "https://www.npmjs.com/package/css-display",
-          "text": "Home"
-        },
-        {
-          "href": "https://github.com/mrmrs/css-display",
-          "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/css-display",
-          "text": "Npm"
-        },
-        {
-          "href": "mrmrs.io",
-          "text": "Built by bmrmrs"
-        }
-      ]
-    },
-    {
       "component": "header/BannerHeader",
       "heading": "display.css",
       "subhead": "A functional css micro library",
