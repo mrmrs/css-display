@@ -70,16 +70,20 @@
       "component": "footer/BasicFooter",
       "links": [
         {
-          "href": "https://github.com/mrmrs/css-animations",
-          "text": "Animations"
+          "href": "https://github.com/mrmrs/",
+          "text": "Built by Mrmrs"
         },
         {
-          "href": "https://github.com/mrmrs/css-borders",
-          "text": "Borders"
-        },
-        {
-          "href": "https://github.com/mrmrs/css-colors",
+          "href": "https://github.com/mrmrs/colors",
           "text": "Colors"
+        },
+        {
+          "href": "https://github.com/tachyons-css/tachyons",
+          "text": "Tachyons"
+        },
+        {
+          "href": "https://github.com/mrmrs/css-widths",
+          "text": "css-widths"
         },
         {
           "href": "",
