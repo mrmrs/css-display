@@ -1,38 +1,44 @@
 {
   "name": "css-display",
-  "style": "display.css",
-  "version": "2.0.5",
-  "homepage": "http://github.com/mrmrs/css-display",
-  "description": "Css module of single purpose classes for display",
+  "version": "3.0.0",
+  "description": "Functional CSS for display",
+  "style": "dist/display.css",
+  "main": "dist/display.css",
+  "exports": {
+    ".": "./dist/display.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "display"
+    "display",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-display": {
+  "homepage": "https://github.com/mrmrs/css-display",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-display.git"
+    "url": "https://github.com/mrmrs/css-display.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-display/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-display/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
