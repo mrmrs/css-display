@@ -1,0 +1,155 @@
+/*
+
+   DISPLAY
+
+   https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+*/
+
+.display-none { display: none; }
+
+.display-inline { display: inline; }
+.display-block { display: block; }
+.display-flow-root { display: flow-root; }
+.display-inline-block { display: inline-block; }
+.display-contents { display: contents; }
+.display-list-item { display: list-item; }
+.display-inline-list-item { display: inline-list-item; }
+.display-table { display: table; }
+.display-inline-table { display: inline-table; }
+.display-table-cell { display: table-cell; }
+.display-table-column { display: table-column; }
+.display-table-column-group { display: table-column-group; }
+.display-table-footer-group { display: table-footer-group; }
+.display-table-header-group { display: table-header-group; }
+.display-table-row { display: table-row; }
+.display-table-row-group { display: table-row-group; }
+.display-table-caption { display: table-caption; }
+.display-flex { display: flex; }
+.display-inline-flex { display: inline-flex; }
+.display-grid { display: grid; }
+.display-inline-grid { display: inline-grid; }
+.display-ruby { display: ruby; }
+.display-ruby-base { display: ruby-base; }
+.display-ruby-text { display: ruby-text; }
+.display-ruby-base-container { display: ruby-base-container; }
+.display-ruby-text-container { display: ruby-text-container; }
+.display-run-in { display: run-in; }
+
+/* Global values */
+.display-inherit { display: inherit; }
+.display-initial { display: initial; }
+.display-unset { display: unset; }
+
+@media screen and (min-width: 32em) {
+  .display-none-s { display: none; }
+
+  .display-inline-s { display: inline; }
+  .display-block-s { display: block; }
+  .display-flow-root-s { display: flow-root; }
+  .display-inline-block-s { display: inline-block; }
+  .display-contents-s { display: contents; }
+  .display-list-item-s { display: list-item; }
+  .display-inline-list-item-s { display: inline-list-item; }
+  .display-table-s { display: table; }
+  .display-inline-table-s { display: inline-table; }
+  .display-table-cell-s { display: table-cell; }
+  .display-table-column-s { display: table-column; }
+  .display-table-column-group-s { display: table-column-group; }
+  .display-table-footer-group-s { display: table-footer-group; }
+  .display-table-header-group-s { display: table-header-group; }
+  .display-table-row-s { display: table-row; }
+  .display-table-row-group-s { display: table-row-group; }
+  .display-table-caption-s { display: table-caption; }
+  .display-flex { display: flex; }
+  .display-inline-flex-s { display: inline-flex; }
+  .display-grid-s { display: grid; }
+  .display-inline-grid-s { display: inline-grid; }
+  .display-ruby-s { display: ruby; }
+  .display-ruby-base-s { display: ruby-base; }
+  .display-ruby-text-s { display: ruby-text; }
+  .display-ruby-base-container-s { display: ruby-base-container; }
+  .display-ruby-text-container-s { display: ruby-text-container; }
+  .display-run-in-s { display: run-in; }
+
+  /* Global values */
+  .display-inherit-s { display: inherit; }
+  .display-initial-s { display: initial; }
+  .display-unset-s { display: unset; }
+}
+
+@media screen and (min-width: 48em) {
+
+  .display-none-m { display: none; }
+
+  .display-inline-m { display: inline; }
+  .display-block-m { display: block; }
+  .display-flow-root-m { display: flow-root; }
+  .display-inline-block-m { display: inline-block; }
+  .display-contents-m { display: contents; }
+  .display-list-item-m { display: list-item; }
+  .display-inline-list-item-m { display: inline-list-item; }
+  .display-table-m { display: table; }
+  .display-inline-table-m { display: inline-table; }
+  .display-table-cell-m { display: table-cell; }
+  .display-table-column-m { display: table-column; }
+  .display-table-column-group-m { display: table-column-group; }
+  .display-table-footer-group-m { display: table-footer-group; }
+  .display-table-header-group-m { display: table-header-group; }
+  .display-table-row-m { display: table-row; }
+  .display-table-row-group-m { display: table-row-group; }
+  .display-table-caption-m { display: table-caption; }
+  .display-flex { display: flex; }
+  .display-inline-flex-m { display: inline-flex; }
+  .display-grid-m { display: grid; }
+  .display-inline-grid-m { display: inline-grid; }
+  .display-ruby-m { display: ruby; }
+  .display-ruby-base-m { display: ruby-base; }
+  .display-ruby-text-m { display: ruby-text; }
+  .display-ruby-base-container-m { display: ruby-base-container; }
+  .display-ruby-text-container-m { display: ruby-text-container; }
+  .display-run-in-m { display: run-in; }
+
+  /* Global values */
+  .display-inherit-m { display: inherit; }
+  .display-initial-m { display: initial; }
+  .display-unset-m { display: unset; }
+}
+
+@media screen and (min-width: 96em) {
+
+  .display-none-l { display: none; }
+
+  .display-inline-l { display: inline; }
+  .display-block-l { display: block; }
+  .display-flow-root-l { display: flow-root; }
+  .display-inline-block-l { display: inline-block; }
+  .display-contents-l { display: contents; }
+  .display-list-item-l { display: list-item; }
+  .display-inline-list-item-l { display: inline-list-item; }
+  .display-table-l { display: table; }
+  .display-inline-table-l { display: inline-table; }
+  .display-table-cell-l { display: table-cell; }
+  .display-table-column-l { display: table-column; }
+  .display-table-column-group-l { display: table-column-group; }
+  .display-table-footer-group-l { display: table-footer-group; }
+  .display-table-header-group-l { display: table-header-group; }
+  .display-table-row-l { display: table-row; }
+  .display-table-row-group-l { display: table-row-group; }
+  .display-table-caption-l { display: table-caption; }
+  .display-flex { display: flex; }
+  .display-inline-flex-l { display: inline-flex; }
+  .display-grid-l { display: grid; }
+  .display-inline-grid-l { display: inline-grid; }
+  .display-ruby-l { display: ruby; }
+  .display-ruby-base-l { display: ruby-base; }
+  .display-ruby-text-l { display: ruby-text; }
+  .display-ruby-base-container-l { display: ruby-base-container; }
+  .display-ruby-text-container-l { display: ruby-text-container; }
+  .display-run-in-l { display: run-in; }
+
+  /* Global values */
+  .display-inherit-l { display: inherit; }
+  .display-initial-l { display: initial; }
+  .display-unset-l { display: unset; }
+}
