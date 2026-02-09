@@ -41,7 +41,7 @@
 .display-initial { display: initial; }
 .display-unset { display: unset; }
 
-@media screen and (min-width: 32em) {
+@media screen {
   .display-none-s { display: none; }
 
   .display-inline-s { display: inline; }
@@ -78,7 +78,7 @@
   .display-unset-s { display: unset; }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
 
   .display-none-m { display: none; }
 
