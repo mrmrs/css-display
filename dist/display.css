@@ -1,97 +1,501 @@
-/*
-
-   DISPLAY
-
-   - Mobile First
-   - Breakpoint: not-small
-   - Breakpoint: medium
-   - Breakpoint: large
-
-*/
-
-.dn {     display: none; }
-.di {     display: inline; }
-.db {     display: block; }
-.dib {    display: inline-block; }
-.dli {    display: list-item; }
-.dit {    display: inline-table; }
-.dt {     display: table; }
-.dtc {    display: table-cell; }
-.dtcol {  display: table-column; }
-.dtcolg { display: table-column-group; }
-.dtfg {   display: table-footer-group; }
-.dthg {   display: table-header-group; }
-.dtr {    display: table-row; }
-.dtrg {   display: table-row-group; }
-.df {     display: flex; }
-.dif {    display: inline-flex; }
-.dg {     display: grid; }
-.dig {    display: inline-grid; }
-.dri {    display: run-in; }
-
-@media screen and (min-width: 48em) {
-  .dn-ns {     display: none; }
-  .di-ns {     display: inline; }
-  .db-ns {     display: block; }
-  .dib-ns {    display: inline-block; }
-  .dli-ns {    display: list-item; }
-  .dit-ns {    display: inline-table; }
-  .dt-ns {     display: table; }
-  .dtc-ns {    display: table-cell; }
-  .dtcol-ns {  display: table-column; }
-  .dtcolg-ns { display: table-column-group; }
-  .dtfg-ns {   display: table-footer-group; }
-  .dthg-ns {   display: table-header-group; }
-  .dtr-ns {    display: table-row; }
-  .dtrg-ns {   display: table-row-group; }
-  .df-ns {     display: flex; }
-  .dif-ns {    display: inline-flex; }
-  .dg-ns {     display: grid; }
-  .dig-ns {    display: inline-grid; }
-  .dri-ns {    display: run-in; }
+.display-none {
+  display: none;
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
-  .dn-m {     display: none; }
-  .di-m {     display: inline; }
-  .db-m {     display: block; }
-  .dib-m {    display: inline-block; }
-  .dli-m {    display: list-item; }
-  .dit-m {    display: inline-table; }
-  .dt-m {     display: table; }
-  .dtc-m {    display: table-cell; }
-  .dtcol-m {  display: table-column; }
-  .dtcolg-m { display: table-column-group; }
-  .dtfg-m {   display: table-footer-group; }
-  .dthg-m {   display: table-header-group; }
-  .dtr-m {    display: table-row; }
-  .dtrg-m {   display: table-row-group; }
-  .df-m {     display: flex; }
-  .dif-m {    display: inline-flex; }
-  .dg-m {     display: grid; }
-  .dig-m {    display: inline-grid; }
-  .dri-m {    display: run-in; }
+.display-inline {
+  display: inline;
 }
 
-@media screen and (min-width: 64em) {
-  .dn-l {     display: none; }
-  .di-l {     display: inline; }
-  .db-l {     display: block; }
-  .dib-l {    display: inline-block; }
-  .dli-l {    display: list-item; }
-  .dit-l {    display: inline-table; }
-  .dt-l {     display: table; }
-  .dtc-l {    display: table-cell; }
-  .dtcol-l {  display: table-column; }
-  .dtcolg-l { display: table-column-group; }
-  .dtfg-l {   display: table-footer-group; }
-  .dthg-l {   display: table-header-group; }
-  .dtr-l {    display: table-row; }
-  .dtrg-l {   display: table-row-group; }
-  .df-l {     display: flex; }
-  .dif-l {    display: inline-flex; }
-  .dg-l {     display: grid; }
-  .dig-l {    display: inline-grid; }
-  .dri-l {    display: run-in; }
+.display-block {
+  display: block;
 }
 
+.display-flow-root {
+  display: flow-root;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-contents {
+  display: contents;
+}
+
+.display-list-item {
+  display: list-item;
+}
+
+.display-inline-list-item {
+  display: inline-list-item;
+}
+
+.display-table {
+  display: table;
+}
+
+.display-inline-table {
+  display: inline-table;
+}
+
+.display-table-cell {
+  display: table-cell;
+}
+
+.display-table-column {
+  display: table-column;
+}
+
+.display-table-column-group {
+  display: table-column-group;
+}
+
+.display-table-footer-group {
+  display: table-footer-group;
+}
+
+.display-table-header-group {
+  display: table-header-group;
+}
+
+.display-table-row {
+  display: table-row;
+}
+
+.display-table-row-group {
+  display: table-row-group;
+}
+
+.display-table-caption {
+  display: table-caption;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.display-inline-grid {
+  display: inline-grid;
+}
+
+.display-ruby {
+  display: ruby;
+}
+
+.display-ruby-base {
+  display: ruby-base;
+}
+
+.display-ruby-text {
+  display: ruby-text;
+}
+
+.display-ruby-base-container {
+  display: ruby-base-container;
+}
+
+.display-ruby-text-container {
+  display: ruby-text-container;
+}
+
+.display-run-in {
+  display: run-in;
+}
+
+.display-inherit {
+  display: inherit;
+}
+
+.display-initial {
+  display: initial;
+}
+
+.display-unset {
+  display: unset;
+}
+
+@media screen {
+  .display-none-s {
+    display: none;
+  }
+
+  .display-inline-s {
+    display: inline;
+  }
+
+  .display-block-s {
+    display: block;
+  }
+
+  .display-flow-root-s {
+    display: flow-root;
+  }
+
+  .display-inline-block-s {
+    display: inline-block;
+  }
+
+  .display-contents-s {
+    display: contents;
+  }
+
+  .display-list-item-s {
+    display: list-item;
+  }
+
+  .display-inline-list-item-s {
+    display: inline-list-item;
+  }
+
+  .display-table-s {
+    display: table;
+  }
+
+  .display-inline-table-s {
+    display: inline-table;
+  }
+
+  .display-table-cell-s {
+    display: table-cell;
+  }
+
+  .display-table-column-s {
+    display: table-column;
+  }
+
+  .display-table-column-group-s {
+    display: table-column-group;
+  }
+
+  .display-table-footer-group-s {
+    display: table-footer-group;
+  }
+
+  .display-table-header-group-s {
+    display: table-header-group;
+  }
+
+  .display-table-row-s {
+    display: table-row;
+  }
+
+  .display-table-row-group-s {
+    display: table-row-group;
+  }
+
+  .display-table-caption-s {
+    display: table-caption;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .display-inline-flex-s {
+    display: inline-flex;
+  }
+
+  .display-grid-s {
+    display: grid;
+  }
+
+  .display-inline-grid-s {
+    display: inline-grid;
+  }
+
+  .display-ruby-s {
+    display: ruby;
+  }
+
+  .display-ruby-base-s {
+    display: ruby-base;
+  }
+
+  .display-ruby-text-s {
+    display: ruby-text;
+  }
+
+  .display-ruby-base-container-s {
+    display: ruby-base-container;
+  }
+
+  .display-ruby-text-container-s {
+    display: ruby-text-container;
+  }
+
+  .display-run-in-s {
+    display: run-in;
+  }
+
+  .display-inherit-s {
+    display: inherit;
+  }
+
+  .display-initial-s {
+    display: initial;
+  }
+
+  .display-unset-s {
+    display: unset;
+  }
+}
+
+@media screen and (width >= 32em) {
+  .display-none-m {
+    display: none;
+  }
+
+  .display-inline-m {
+    display: inline;
+  }
+
+  .display-block-m {
+    display: block;
+  }
+
+  .display-flow-root-m {
+    display: flow-root;
+  }
+
+  .display-inline-block-m {
+    display: inline-block;
+  }
+
+  .display-contents-m {
+    display: contents;
+  }
+
+  .display-list-item-m {
+    display: list-item;
+  }
+
+  .display-inline-list-item-m {
+    display: inline-list-item;
+  }
+
+  .display-table-m {
+    display: table;
+  }
+
+  .display-inline-table-m {
+    display: inline-table;
+  }
+
+  .display-table-cell-m {
+    display: table-cell;
+  }
+
+  .display-table-column-m {
+    display: table-column;
+  }
+
+  .display-table-column-group-m {
+    display: table-column-group;
+  }
+
+  .display-table-footer-group-m {
+    display: table-footer-group;
+  }
+
+  .display-table-header-group-m {
+    display: table-header-group;
+  }
+
+  .display-table-row-m {
+    display: table-row;
+  }
+
+  .display-table-row-group-m {
+    display: table-row-group;
+  }
+
+  .display-table-caption-m {
+    display: table-caption;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .display-inline-flex-m {
+    display: inline-flex;
+  }
+
+  .display-grid-m {
+    display: grid;
+  }
+
+  .display-inline-grid-m {
+    display: inline-grid;
+  }
+
+  .display-ruby-m {
+    display: ruby;
+  }
+
+  .display-ruby-base-m {
+    display: ruby-base;
+  }
+
+  .display-ruby-text-m {
+    display: ruby-text;
+  }
+
+  .display-ruby-base-container-m {
+    display: ruby-base-container;
+  }
+
+  .display-ruby-text-container-m {
+    display: ruby-text-container;
+  }
+
+  .display-run-in-m {
+    display: run-in;
+  }
+
+  .display-inherit-m {
+    display: inherit;
+  }
+
+  .display-initial-m {
+    display: initial;
+  }
+
+  .display-unset-m {
+    display: unset;
+  }
+}
+
+@media screen and (width >= 96em) {
+  .display-none-l {
+    display: none;
+  }
+
+  .display-inline-l {
+    display: inline;
+  }
+
+  .display-block-l {
+    display: block;
+  }
+
+  .display-flow-root-l {
+    display: flow-root;
+  }
+
+  .display-inline-block-l {
+    display: inline-block;
+  }
+
+  .display-contents-l {
+    display: contents;
+  }
+
+  .display-list-item-l {
+    display: list-item;
+  }
+
+  .display-inline-list-item-l {
+    display: inline-list-item;
+  }
+
+  .display-table-l {
+    display: table;
+  }
+
+  .display-inline-table-l {
+    display: inline-table;
+  }
+
+  .display-table-cell-l {
+    display: table-cell;
+  }
+
+  .display-table-column-l {
+    display: table-column;
+  }
+
+  .display-table-column-group-l {
+    display: table-column-group;
+  }
+
+  .display-table-footer-group-l {
+    display: table-footer-group;
+  }
+
+  .display-table-header-group-l {
+    display: table-header-group;
+  }
+
+  .display-table-row-l {
+    display: table-row;
+  }
+
+  .display-table-row-group-l {
+    display: table-row-group;
+  }
+
+  .display-table-caption-l {
+    display: table-caption;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .display-inline-flex-l {
+    display: inline-flex;
+  }
+
+  .display-grid-l {
+    display: grid;
+  }
+
+  .display-inline-grid-l {
+    display: inline-grid;
+  }
+
+  .display-ruby-l {
+    display: ruby;
+  }
+
+  .display-ruby-base-l {
+    display: ruby-base;
+  }
+
+  .display-ruby-text-l {
+    display: ruby-text;
+  }
+
+  .display-ruby-base-container-l {
+    display: ruby-base-container;
+  }
+
+  .display-ruby-text-container-l {
+    display: ruby-text-container;
+  }
+
+  .display-run-in-l {
+    display: run-in;
+  }
+
+  .display-inherit-l {
+    display: inherit;
+  }
+
+  .display-initial-l {
+    display: initial;
+  }
+
+  .display-unset-l {
+    display: unset;
+  }
+}
