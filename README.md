@@ -1,133 +1,192 @@
-# css-display 2.0.3
+# css-display
 
-Css module of single purpose classes for display
+Functional CSS for display
 
-#### Stats
+## Filesize
 
-404 | 30 | 36
----|---|---
-bytes | selectors | declarations
+| File | Size |
+|------|------|
+| `dist/display.css` | 6815 bytes |
+| `dist/display.min.css` | 5129 bytes (677 Gzipped) |
 
-## Installation
+## Install
 
-#### With [npm](https://npmjs.com)
-
-```
-npm install --save-dev css-display
-```
-
-Learn more about using css installed with npm:
-* https://webpack.github.io/docs/stylesheets.html
-* https://github.com/defunctzombie/npm-css
-
-#### With Git
-
-http:
-```
-git clone https://github.com/tachyons-css/css-display
-```
-
-ssh:
-```
-git clone git@github.com:tachyons-css/css-display.git
+```sh
+npm install css-display
 ```
 
 ## Usage
 
-#### Using with [Postcss](https://github.com/postcss/postcss)
-
-Import the css module
+### Import
 
 ```css
 @import "css-display";
 ```
 
-Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
-
-```sh
-$ npm i -g tachyons-cli
-$ tachyons path/to/css-file.css > dist/t.css
-```
-
-#### Using the css
-
-##### CDN
-The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
-
-```
-<link rel="stylesheet" href="http://unpkg.com/css-display@2.0.3/css/css-display.min.css" />
-```
-
-##### Locally
-The built css is located in the `css` directory. It contains an unminified and minified version.
-You can either cut and paste that css or link to it directly in your html.
+### CDN
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/css-display">
+<link rel="stylesheet" href="https://unpkg.com/css-display/dist/display.min.css">
 ```
 
-#### Development
+### Direct
 
-The source css files can be found in the `src` directory.
-Running `$ npm start` will process the source css and place the built css in the `css` directory.
-
-## The css
-
-```css
-/*
-
-   DISPLAY
-
-   https://developer.mozilla.org/en-US/docs/Web/CSS/display
-
-*/
-.display-none { display: none; }
-.display-inline { display: inline; }
-.display-block { display: block; }
-.display-inline-block { display: inline-block; }
-.display-contents { display: contents; }
-.display-list-item { display: list-item; }
-.display-inline-list-item { display: inline-list-item; }
-.display-table { display: table; }
-.display-inline-table { display: inline-table; }
-.display-table-cell { display: table-cell; }
-.display-table-column { display: table-column; }
-.display-table-column-group { display: table-column-group; }
-.display-table-footer-group { display: table-footer-group; }
-.display-table-header-group { display: table-header-group; }
-.display-table-row { display: table-row; }
-.display-table-row-group { display: table-row-group; }
-.display-table-caption { display: table-caption; }
-.display-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
-.display-inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
-.display-grid { display: -ms-grid; display: grid; }
-.display-inline-grid { display: -ms-inline-grid; display: inline-grid; }
-.display-ruby { display: ruby; }
-.display-ruby-base { display: ruby-base; }
-.display-ruby-text { display: ruby-text; }
-.display-ruby-base-container { display: ruby-base-container; }
-.display-ruby-text-container { display: ruby-text-container; }
-.display-run-in { display: run-in; }
-/* Global values */
-.display-inherit { display: inherit; }
-.display-initial { display: initial; }
-.display-unset { display: unset; }
+```html
+<link rel="stylesheet" href="path/to/css-display/dist/display.min.css">
 ```
 
-## Contributing
+## Classes
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+| Class   | Value                    |
+|---------|--------------------------|
+| `.display-none` | `display: none;` |
+| `.display-inline` | `display: inline;` |
+| `.display-block` | `display: block;` |
+| `.display-flow-root` | `display: flow-root;` |
+| `.display-inline-block` | `display: inline-block;` |
+| `.display-contents` | `display: contents;` |
+| `.display-list-item` | `display: list-item;` |
+| `.display-inline-list-item` | `display: inline-list-item;` |
+| `.display-table` | `display: table;` |
+| `.display-inline-table` | `display: inline-table;` |
+| `.display-table-cell` | `display: table-cell;` |
+| `.display-table-column` | `display: table-column;` |
+| `.display-table-column-group` | `display: table-column-group;` |
+| `.display-table-footer-group` | `display: table-footer-group;` |
+| `.display-table-header-group` | `display: table-header-group;` |
+| `.display-table-row` | `display: table-row;` |
+| `.display-table-row-group` | `display: table-row-group;` |
+| `.display-table-caption` | `display: table-caption;` |
+| `.display-flex` | `display: flex;` |
+| `.display-inline-flex` | `display: inline-flex;` |
+| `.display-grid` | `display: grid;` |
+| `.display-inline-grid` | `display: inline-grid;` |
+| `.display-ruby` | `display: ruby;` |
+| `.display-ruby-base` | `display: ruby-base;` |
+| `.display-ruby-text` | `display: ruby-text;` |
+| `.display-ruby-base-container` | `display: ruby-base-container;` |
+| `.display-ruby-text-container` | `display: ruby-text-container;` |
+| `.display-run-in` | `display: run-in;` |
+| `.display-inherit` | `display: inherit;` |
+| `.display-initial` | `display: initial;` |
+| `.display-unset` | `display: unset;` |
+| `.display-none-s` | `display: none;` |
+| `.display-inline-s` | `display: inline;` |
+| `.display-block-s` | `display: block;` |
+| `.display-flow-root-s` | `display: flow-root;` |
+| `.display-inline-block-s` | `display: inline-block;` |
+| `.display-contents-s` | `display: contents;` |
+| `.display-list-item-s` | `display: list-item;` |
+| `.display-inline-list-item-s` | `display: inline-list-item;` |
+| `.display-table-s` | `display: table;` |
+| `.display-inline-table-s` | `display: inline-table;` |
+| `.display-table-cell-s` | `display: table-cell;` |
+| `.display-table-column-s` | `display: table-column;` |
+| `.display-table-column-group-s` | `display: table-column-group;` |
+| `.display-table-footer-group-s` | `display: table-footer-group;` |
+| `.display-table-header-group-s` | `display: table-header-group;` |
+| `.display-table-row-s` | `display: table-row;` |
+| `.display-table-row-group-s` | `display: table-row-group;` |
+| `.display-table-caption-s` | `display: table-caption;` |
+| `.display-flex` | `display: flex;` |
+| `.display-inline-flex-s` | `display: inline-flex;` |
+| `.display-grid-s` | `display: grid;` |
+| `.display-inline-grid-s` | `display: inline-grid;` |
+| `.display-ruby-s` | `display: ruby;` |
+| `.display-ruby-base-s` | `display: ruby-base;` |
+| `.display-ruby-text-s` | `display: ruby-text;` |
+| `.display-ruby-base-container-s` | `display: ruby-base-container;` |
+| `.display-ruby-text-container-s` | `display: ruby-text-container;` |
+| `.display-run-in-s` | `display: run-in;` |
+| `.display-inherit-s` | `display: inherit;` |
+| `.display-initial-s` | `display: initial;` |
+| `.display-unset-s` | `display: unset;` |
+| `.display-none-m` | `display: none;` |
+| `.display-inline-m` | `display: inline;` |
+| `.display-block-m` | `display: block;` |
+| `.display-flow-root-m` | `display: flow-root;` |
+| `.display-inline-block-m` | `display: inline-block;` |
+| `.display-contents-m` | `display: contents;` |
+| `.display-list-item-m` | `display: list-item;` |
+| `.display-inline-list-item-m` | `display: inline-list-item;` |
+| `.display-table-m` | `display: table;` |
+| `.display-inline-table-m` | `display: inline-table;` |
+| `.display-table-cell-m` | `display: table-cell;` |
+| `.display-table-column-m` | `display: table-column;` |
+| `.display-table-column-group-m` | `display: table-column-group;` |
+| `.display-table-footer-group-m` | `display: table-footer-group;` |
+| `.display-table-header-group-m` | `display: table-header-group;` |
+| `.display-table-row-m` | `display: table-row;` |
+| `.display-table-row-group-m` | `display: table-row-group;` |
+| `.display-table-caption-m` | `display: table-caption;` |
+| `.display-flex` | `display: flex;` |
+| `.display-inline-flex-m` | `display: inline-flex;` |
+| `.display-grid-m` | `display: grid;` |
+| `.display-inline-grid-m` | `display: inline-grid;` |
+| `.display-ruby-m` | `display: ruby;` |
+| `.display-ruby-base-m` | `display: ruby-base;` |
+| `.display-ruby-text-m` | `display: ruby-text;` |
+| `.display-ruby-base-container-m` | `display: ruby-base-container;` |
+| `.display-ruby-text-container-m` | `display: ruby-text-container;` |
+| `.display-run-in-m` | `display: run-in;` |
+| `.display-inherit-m` | `display: inherit;` |
+| `.display-initial-m` | `display: initial;` |
+| `.display-unset-m` | `display: unset;` |
+| `.display-none-l` | `display: none;` |
+| `.display-inline-l` | `display: inline;` |
+| `.display-block-l` | `display: block;` |
+| `.display-flow-root-l` | `display: flow-root;` |
+| `.display-inline-block-l` | `display: inline-block;` |
+| `.display-contents-l` | `display: contents;` |
+| `.display-list-item-l` | `display: list-item;` |
+| `.display-inline-list-item-l` | `display: inline-list-item;` |
+| `.display-table-l` | `display: table;` |
+| `.display-inline-table-l` | `display: inline-table;` |
+| `.display-table-cell-l` | `display: table-cell;` |
+| `.display-table-column-l` | `display: table-column;` |
+| `.display-table-column-group-l` | `display: table-column-group;` |
+| `.display-table-footer-group-l` | `display: table-footer-group;` |
+| `.display-table-header-group-l` | `display: table-header-group;` |
+| `.display-table-row-l` | `display: table-row;` |
+| `.display-table-row-group-l` | `display: table-row-group;` |
+| `.display-table-caption-l` | `display: table-caption;` |
+| `.display-flex` | `display: flex;` |
+| `.display-inline-flex-l` | `display: inline-flex;` |
+| `.display-grid-l` | `display: grid;` |
+| `.display-inline-grid-l` | `display: inline-grid;` |
+| `.display-ruby-l` | `display: ruby;` |
+| `.display-ruby-base-l` | `display: ruby-base;` |
+| `.display-ruby-text-l` | `display: ruby-text;` |
+| `.display-ruby-base-container-l` | `display: ruby-base-container;` |
+| `.display-ruby-text-container-l` | `display: ruby-text-container;` |
+| `.display-run-in-l` | `display: run-in;` |
+| `.display-inherit-l` | `display: inherit;` |
+| `.display-initial-l` | `display: initial;` |
+| `.display-unset-l` | `display: unset;` |
 
-## Authors
+### Responsive
 
-* [mrmrs](http://mrmrs.io)
-* [johno](http://johnotander.com)
+Responsive variants are available for each class with the following suffixes:
+
+| Suffix | Media Query              |
+|--------|--------------------------|
+| `-s`   | `min-width: 32em`        |
+| `-m`   | `min-width: 48em`        |
+| `-l`   | `min-width: 96em`        |
+
+Example: `.display-none-m` applies the property at the medium breakpoint and above.
+
+## Building
+
+```sh
+npm run build
+```
+
+Processes `src/display.css` with [Lightning CSS](https://lightningcss.dev) and outputs to `dist/`.
+
+- `dist/display.css` — formatted
+- `dist/display.min.css` — minified
 
 ## License
 
-ISC
-
+MIT
